@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookings5">
+    <test name="Test5">
+        <parameter name="url" value="spicejet.com"/>
+        <parameter name="username" value="abcd"/>
+        <parameter name="password" value="1234"/>
+        <classes>
+<class name="com.thatfella.tut6.Parameter"/>
+        </classes>
+    </test>
+</suite>
