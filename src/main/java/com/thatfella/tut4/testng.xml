@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookings2">
+    <test name="Test2">
+        <classes>
+            <class name="com.thatfella.tut4.BookFlight">
+                <methods>
+                    <!--Here is the example of regular expression in our testSuite configuration-->
+                    <!--This one tells us to include all methods which start from "BookFlight_OneWay"-->
+                    <include name=".*bookFlight_OneWay.*"/>
+                </methods>
+            </class>
+            <class name="com.thatfella.tut4.BookHolidayPackage">
+                <methods>
+                    <!--We use include to mark that we want to exclude this test method from execution-->
+                    <exclude name="bookHolidayPackage_departure"/>
+                </methods>
+            </class>
+            <class name="com.thatfella.tut4.BookHotel">
+                <methods>
+                    <!--We use include to mark that we want to execute this test method-->
+                    <include name="BookHotel_DestinationCity"/>
+                </methods>
+            </class>
+            <class name="com.thatfella.tut4.FlightStatus"/>
+        </classes>
+    </test>
+</suite>
