@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookings">
+    <test name="Test">
+        <classes>
+            <class name="com.thatfella.tut3.BookFlight"/>
+            <class name="com.thatfella.tut3.BookHolidayPackage"/>
+            <class name="com.thatfella.tut3.BookHotel"/>
+            <class name="com.thatfella.tut3.FlightStatus"/>
+        </classes>
+    </test>
+</suite>
+        <!--We create such a configuration to execute all test cases in a package-->
