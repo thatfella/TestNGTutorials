@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookings3">
+    <test name="Test3">
+        <packages>
+            <!--Include all test cases of 2 packages-->
+            <package name="com.thatfella.tut4"/>
+            <package name="com.thatfella.tut5"/>
+        </packages>
+    </test>
+</suite>
