@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookings7">
+    <listeners>
+        <!--Added listener Class which implements ITestListener-->
+        <listener class-name="com.thatfella.tut8.ListenerMain"/>
+    </listeners>
+
+    <test name="Test7">
+
+        <!--Show that we want to execute ListenerClass1-->
+        <classes>
+            <class name="com.thatfella.tut8.ListenerClass1">
+            </class>
+            <class name="com.thatfella.tut8.ListenerClass2"/>
+        </classes>
+
+
+    </test>
+</suite>
